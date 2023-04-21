@@ -1,35 +1,39 @@
-function Footer() {
+import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.png"; 
+import fb from "../assets/images/fb.png"; 
+import ig from "../assets/images/ig.png"; 
+import tw from "../assets/images/tw.png"; 
+ function Footer() {
     return ( 
         <>
-        <h1>Footer</h1>
-        <footer>
+        <footer className="foot">
                 <div className="cfoot">
                     <div className="fotlog">
-                        <img className="logo2" src="assets/images/logo.png" alt="Logo" />
+                        <img className="logo2" src={logo} alt="Logo" />
                     </div>
                     <div className="enlaces">
                         <div className="cont-enl">
-                            <a href>Nosotros</a>
+                            <Link to={'/Us'}>Nosotros</Link>
                         </div>
                         <div className="cont-enl">
-                            <a href>Productos</a>
+                            <Link to={'/Store'}>Productos</Link>
                         </div>
                         <div className="cont-enl">
-                            <a href>Contacto</a>
+                            <Link to={'/Contact'}>Contacto</Link>
                         </div>
                         <div className="cont-enl">
-                            <a href>Unete</a>
+                            <Link to={'/Register'}>Unete</Link>
                         </div>
                     </div>
                     <div className="social">
                         <div className="cont-soc">
-                            <a href="https://www.facebook.com/"><img className="network-img" src="assets/images/fb.png" alt="FB" /></a>
+                            <a href="https://www.facebook.com/"><img className="network-img" src={fb} alt="FB" /></a>
                         </div>
                         <div className="cont-soc">
-                            <a href="https://www.instagram.com/"><img className="network-img" src="assets/images/ig.png" alt="IG" /></a>
+                            <a href="https://www.instagram.com/"><img className="network-img" src={ig} alt="IG" /></a>
                         </div>
                         <div className="cont-soc">
-                            <a href="https://twitter.com/"><img className="network-img" src="assets/images/tw.png" alt="TW" /></a>
+                            <a href="https://twitter.com/"><img className="network-img" src={tw} alt="TW" /></a>
                         </div>
                     </div>
                 </div>
