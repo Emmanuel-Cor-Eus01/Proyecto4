@@ -41,7 +41,25 @@
   text-align: center;
   align-self: center;
 }
-
+.banner{
+  background: url('../src/assets/images/serv.jpg');
+  height: 500px;
+  width: auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.content{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1{
+    color: #000000;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+    align-items: center;
+}
 
 .foot{
   background-color: #000000;
