@@ -9,6 +9,11 @@ function Home() {
                 <h1 className="h1">SERVICIO TECNICO Y VENTA DE PRODUCTOS ELECTRONICOS</h1>
                 </div>
             </div>
+            <div className="services">
+                <div className="cont-serv text-center">
+                    <h3>SERVICIOS</h3>
+                </div>
+            </div>
         </>
      );
 }
