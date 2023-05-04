@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* este es el codigo de todo el header */
 .header-wrapper{
     display: grid;
     background-color: #00010D;
@@ -41,6 +42,7 @@
   text-align: center;
   align-self: center;
 }
+/* este es el contenido del componente home */
 .banner{
   background: url('../src/assets/images/serv.jpg');
   height: 500px;
@@ -60,7 +62,99 @@
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
     align-items: center;
 }
-
+.services{
+  height: 740px;
+  background-color: #032026;
+}
+.serv{
+  background-color: #032026;
+  color: #ffffff;
+  padding: 2rem;
+}
+.card{
+  background-color: #ffffff;
+  width: 30rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.cont-serv{
+  height: 700px;
+  background-color: #032026;
+}
+.choice{
+  background-color: #032026;
+  height: 300px;
+}
+.chice{
+  background-color: #032026;
+  color: #ffffff;
+  padding: 2rem;
+}
+/* aqui va todo el codigo del componente us */
+.Us{
+  background-color: #032026;
+  padding: 2rem;
+}
+.logo-us{
+  height: 200px;
+  width: 200px;
+}
+.text-container{
+  color: #ffffff;
+}
+.trabajos-container{
+  color: #ffffff;
+  padding: 2rem;
+}
+.Store{
+  background-color: #032026;
+}
+.title-store{
+  color: #ffffff;
+}
+.card-store{
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+.title-cita{
+  color: #ffffff;
+  margin: 4rem;
+}
+.p-cita{
+  color: #ffffff;
+  margin: 2rem;
+}
+.form-cita{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* aqui ira el contenido de contacto */
+.contact{
+  background-color: #032026;
+  align-items: center;
+  width: 100%;
+}
+.logo-contact{
+  height: 400px;
+  width: 400px;
+}
+/* aqui esta el contenido del registro */
+.Register{
+  background-color: #032026;
+  color: #ffffff;
+  padding: 2rem;
+}
+.title-reg{
+  margin: 3rem;
+}
+.form-register{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .foot{
   background-color: #000000;
   text-align: center;

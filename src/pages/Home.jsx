@@ -1,8 +1,7 @@
-import repara from "../assets/images/repara.jpg"; 
-import red from "../assets/images/red.jpg"; 
-import instalacion from "../assets/images/instalacion.webp"; 
+import CardChoice from "../components/Card-choice";
+import Card from "../components/Card-serv";
 function Home() {
-    return ( 
+    return (
         <>
             <div className="banner text-center">
                 <div className="content">
@@ -11,7 +10,14 @@ function Home() {
             </div>
             <div className="services">
                 <div className="cont-serv text-center">
-                    <h3>SERVICIOS</h3>
+                    <h2 className="serv">SERVICIOS</h2>
+                    <Card className="card"></Card>
+                </div>
+            </div>
+            <div className="choice">
+                <div className="cont-choi text-center">
+                    <h2 className="chice">¿Por que elegirnos?</h2>
+                    <CardChoice className="card"></CardChoice>
                 </div>
             </div>
         </>

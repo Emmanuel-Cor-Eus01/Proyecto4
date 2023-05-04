@@ -1,3 +1,4 @@
+import { useState } from "react";
 function FormVisit() {
     const [FormVisit, setFormVisit] = useState({
         nombre:'',
@@ -16,7 +17,7 @@ function FormVisit() {
     }
     return ( 
         <>
-            <h1>Formulario reserva</h1>
+        <div className="form-cita">
             <form onSubmit={saveVisit}>
                 <div className="mb-3">
                     <label className="form-label">Nombre del cliente</label>
@@ -31,9 +32,9 @@ function FormVisit() {
                     <label className="form-label">Hora</label>
                     <input type="time" className="form-control" name="hora" onChange={hanleInputChange}/>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Agendar Visita</button>
             </form>
-
+        </div>
         </>
      );
 }

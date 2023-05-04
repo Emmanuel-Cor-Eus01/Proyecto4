@@ -19,7 +19,7 @@ function FormReg() {
     }
     return ( 
         <>
-            <h1>Este es el formulario</h1>
+        <div className="form-register text-center">
             <form onSubmit={saveReg}>
                 <div className="mb-3">
                     <label className="form-label">Nombre del cliente</label>
@@ -41,9 +41,9 @@ function FormReg() {
                     <label className="form-label">Contraseña</label>
                     <input type="password" className="form-control" name="pass" onChange={hanleInputChange}/>
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Registrar</button>
             </form>
-
+        </div>
         </>
      );
 }
