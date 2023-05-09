@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
-function Header() {
+function Header(props) {
     return ( 
         <>
         <header>
-                <div className="header-wrapper">
+                <div className="header-wrapper text-center">
                     <div className="header-logo">
                         <img className="logo" src={logo} alt="La imagen no cargo correctamente" />
                     </div>
                     <div className="header-title">
-                        <h1>S H E L L</h1>
+                        <h1>{props.titulo}</h1>
                     </div>
                     <div className="header-nav">
                         <nav className="nav">

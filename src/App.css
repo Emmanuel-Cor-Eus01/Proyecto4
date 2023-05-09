@@ -106,6 +106,16 @@
   color: #ffffff;
   padding: 2rem;
 }
+.frame1{
+  width: 560px;
+  height: 315px;
+}
+.frame2{
+  width: 560px;
+  height: 315px;
+}
+
+/* aqui va el contenido de tienda */
 .Store{
   background-color: #032026;
 }
@@ -141,6 +151,11 @@
   height: 400px;
   width: 400px;
 }
+.ubi{
+  width: 1500px;
+  height: 400px;
+}
+
 /* aqui esta el contenido del registro */
 .Register{
   background-color: #032026;
@@ -155,6 +170,8 @@
   justify-content: center;
   width: 100%;
 }
+
+
 .foot{
   background-color: #000000;
   text-align: center;
@@ -199,4 +216,138 @@
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .header-wrapper{
+    display: grid;
+    background-color: #00010D;
+    grid-template-columns: auto;
+    color: white;
+    grid-template-rows: 5rem;
+    /* position: fixed; */
+    width: 100%;
+}
+.logo{
+  height: 100%;
+  object-fit: cover;
+}
+.header-logo{
+  padding: 2px;
+  text-align: center;
+  width: 450px;
+}
+.header-title{
+  padding: 2px;
+  text-align: center;
+  align-self: center;
+}
+.nav a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+.nav a:hover{
+  color: #1BF2F2;
+}
+.header-nav{
+  padding: 5px;
+  text-align: center;
+  align-self: center;
+}
+
+
+
+  .services{
+    height: 1750px;
+    background-color: #032026;
+  }
+  .serv{
+    background-color: #032026;
+    color: #ffffff;
+    padding: 2rem;
+  }
+  .card{
+    background-color: #ffffff;
+    width: 25rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .cont-serv{
+    height: 1750px;
+    background-color: #032026;
+  }
+  .choice{
+    background-color: #032026;
+    height: 600px;
+  }
+  .chice{
+    background-color: #032026;
+    color: #ffffff;
+    padding: 2rem;
+  }
+
+
+
+
+
+  .frame1{
+    width: 350px;
+    height: 315px;
+  }
+  .frame2{
+    width: 350px;
+    height: 315px;
+  }
+
+
+
+
+  .contact{
+    background-color: #032026;
+    align-items: center;
+    width: 462px;
+  }
+  .logo-contact{
+    height: 200px;
+    width: 200px;
+  }
+  .ubi{
+    width: 450px;
+    height: 400px;
+  }
+
+
+
+
+
+
+  .cont-enl{
+    margin-right: 70px;
+    margin-left: 70px;
+    text-align: center;
+}
+.enlaces{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-template-rows: 2rem;
+}
+.foot{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+.cfoot{
+    display: grid;
+    grid-template-columns: auto ;
+    height: auto;
+    justify-content: center;
+
+  }
 }

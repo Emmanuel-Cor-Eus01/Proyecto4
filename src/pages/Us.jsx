@@ -6,7 +6,7 @@ function Us() {
             <div>
                 <div className="Us">
                     <div className="row cont-us text-center">
-                        <div className="img-container col-md-6">
+                        <div className="img-container col-xs-6 col-md-6">
                             <img className="logo-us" src={logo} alt="la imagen no cargo correctamente" />
                         </div>
                         <div className="text-container col-md-6 text-center">
@@ -19,14 +19,14 @@ function Us() {
                         </div>
                         <div className="trabajos-container row">
                             <h2 className="mb-4">Trabajos de mantenimiento a equipos de computo</h2>
-                            <div className="vid col-md-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7pjnURHAsb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="vid col-xs-6 col-md-6">
+                            <iframe className="frame1" src="https://www.youtube.com/embed/7pjnURHAsb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
-                            <div className="vid col-md-6">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QOmeIJ5LJh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div className="vid col-xs-6 col-md-6">
+                            <iframe className="frame2" src="https://www.youtube.com/embed/QOmeIJ5LJh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
-                        <div className="opinion">La opinion de nuestros clientes</div>
+                        {/* <div className="opinion">La opinion de nuestros clientes</div> */}
                         <div className="cita row">
                             <div className="content-cita">
                                 <h1 className="title-cita text-center">Programar Visita tecnica</h1>
