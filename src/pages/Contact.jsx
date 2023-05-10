@@ -7,19 +7,19 @@ function Contact() {
                     <img className="logo-contact" src={logo} alt="la imagen no cargo correctamente" />
                 </div>
                 <div className="info col-xs-6 col-md-6">
-                    <div className="card text-center">
+                    <div className="cardub text-center">
                         <div className="card-body">
                             <h5 className="card-title">TELEFONO</h5>
                             <p className="card-text">155 155 78 32</p>
                         </div>
                     </div>
-                    <div className="card text-center">
+                    <div className="cardub text-center">
                         <div className="card-body">
                             <h5 className="card-title">DIRECCION</h5>
                             <p className="card-text">10060 No 5 Rd, Richmond, BC V7A 4E5, Canadá</p>
                         </div>
                     </div>
-                    <div className="card text-center">
+                    <div className="cardub text-center">
                         <div className="card-body">
                             <h5 className="card-title">CORREO</h5>
                             <p className="card-text">CONTACTO-SHELL@SHEL.COM</p>
