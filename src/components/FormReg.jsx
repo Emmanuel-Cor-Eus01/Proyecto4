@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { db1 } from "../services/firestore-form-reg";
+import { db } from "../services/firestore-form-reg";
 import { collection, addDoc } from "firebase/firestore";
 function FormReg() {
     const [FormReg, setFormReg] = useState({
@@ -18,7 +18,7 @@ function FormReg() {
     const saveReg = async (event) => {
         event.preventDefault();
         console.log(FormReg);
-        const docRef = await addDoc(collection(db1, "registro"), FormReg);
+        const docRef = await addDoc(collection(db, "registro"), FormReg);
         console.log("Documento agregado con el ID", docRef.id);
     }
     return ( 
