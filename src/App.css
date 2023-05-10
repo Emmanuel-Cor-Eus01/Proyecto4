@@ -220,7 +220,7 @@
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .header-wrapper{
     display: grid;
     background-color: #00010D;
@@ -230,31 +230,31 @@
     /* position: fixed; */
     width: 100%;
 }
+
 .logo{
   height: 100%;
   object-fit: cover;
 }
 .header-logo{
-  padding: 2px;
+  padding: 10px;
   text-align: center;
-  width: 450px;
 }
 .header-title{
-  padding: 2px;
+  padding: 10px;
   text-align: center;
   align-self: center;
 }
 .nav a{
   color: #ffffff;
   text-decoration: none;
-  padding: 10px;
+  padding: 40px;
   text-align: center;
 }
 .nav a:hover{
   color: #1BF2F2;
 }
 .header-nav{
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   align-self: center;
 }
@@ -262,7 +262,7 @@
 
 
   .services{
-    height: 1750px;
+    height: 1150px;
     background-color: #032026;
   }
   .serv{
@@ -272,17 +272,18 @@
   }
   .card{
     background-color: #ffffff;
-    width: 25rem;
+    width: 20rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
+    
   }
   .cont-serv{
-    height: 1750px;
+    height: 1150px;
     background-color: #032026;
   }
   .choice{
     background-color: #032026;
-    height: 600px;
+    height: 450px;
   }
   .chice{
     background-color: #032026;
@@ -295,11 +296,11 @@
 
 
   .frame1{
-    width: 350px;
+    width: 600px;
     height: 315px;
   }
   .frame2{
-    width: 350px;
+    width: 600px;
     height: 315px;
   }
 
@@ -309,21 +310,27 @@
   .contact{
     background-color: #032026;
     align-items: center;
-    width: 462px;
+    width: 732px;
   }
   .logo-contact{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+  }
+  .cardub{
+    background-color: #ffffff;
+    width: 41rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
   }
   .ubi{
-    width: 450px;
+    width: 720px;
     height: 400px;
   }
 
 
 
   .Register{
-    width: 700px;
+    width: 732px;
   }
 
 
